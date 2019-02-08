@@ -1,0 +1,63 @@
+
+  .form
+  {
+    width: 90%;
+    padding: 35px;
+    color: rgb(230, 230,  230);
+    max-width: 375px;
+    background: rgb(40, 40, 40);
+    box-shadow: 0 20px 50px rgb(100, 100, 100);
+  }
+
+  .form-group
+  {
+    padding: 12px 0;
+    margin: 0;
+  }
+
+  .input-group-text
+  {
+    border-radius: 0;
+    background: initial;
+    border-color: rgb(230, 230,  230);
+    color: inherit;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    transition: 0.3s;
+  }
+
+  .form-control
+  {
+    border: none !important;
+    outline: none;
+    box-shadow: none !important;
+    border-radius: 0;
+    background: rgb(230, 230,  230) !important;
+    transition: 0.3s;
+  }
+
+  .form-group:hover .input-group-text
+  {
+    background: rgb(230, 230,  230);
+    color: #181818;
+  }
+
+  .form-group .form-control
+  { padding: 10px; }
+
+  .info
+  {
+    font-size: 90%;
+    color: rgb(200, 200, 200);
+  }
+
+  .a-decorate
+  {
+    color: rgb(150, 150, 150);
+    text-decoration: underline;
+  }
+
+  .a-decorate:hover
+  { color: inherit; }

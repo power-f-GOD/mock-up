@@ -1,0 +1,63 @@
+    
+    .cur-page-top-bg-image
+    {
+      height: 140px;
+      background-image: url('../images/black-background-squares.jpg');
+    }
+
+    .dash-col
+    { padding: 8px; }
+    
+    .sub-dash-col-wrapper
+    { 
+      box-shadow: 0 4px 10px 0 #aaa, 
+                  0 4px 20px 0 #aaa; 
+    }
+
+    .sub-dash-col
+    {
+      padding: 15px 20px;
+      background: rgb(240, 240, 240);
+    }
+
+    .dash-avatar-wrapper
+    {
+      height: 240px;
+      color: rgb(230, 230, 230);
+      background: #181818;
+      overflow: hidden;
+    }
+
+    .dash-avatar
+    { font-size: 1200%; }
+
+    .dash-avatar-name
+    {
+      bottom: 20px;
+      left: 20px;
+      color: rgb(230, 230, 230);
+      text-shadow: 1px 1px 1px black;
+    }
+
+    .dash-list-title, .dash-list-item
+    { margin: 10px 0; }
+
+    .meter-container
+    {
+      height: 24px;
+      border-radius: 20px;
+      background: #ddd;
+      overflow: hidden;
+    }
+
+    .meter
+    {
+      border-radius: 20px;
+      background: #686868;
+    }
+
+    .dash-desc-box
+    {
+      height: 200px;
+      background: rgb(219, 219, 219);
+    }

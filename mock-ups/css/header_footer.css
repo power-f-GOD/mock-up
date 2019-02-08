@@ -1,0 +1,225 @@
+   
+   /* navbar section - START */
+
+    .nav-wrapper
+    { 
+      padding: 0;
+      background: rgba(0, 0, 0, 0);
+      transition: 0.3s;
+    }
+
+    .navbar
+    { 
+      padding: 0; 
+      padding-top: 25px; 
+      padding-bottom: 25px;
+      transition: 0.3s;
+    }
+ 
+    .navbar-brand
+    { 
+      color: rgb(230, 230,  230);
+      text-shadow: 1px 1px 1px #111;
+    }
+
+    .navbar-brand:hover
+    { color: white; }
+
+    .navbar-nav-ul-wrapper
+    { width: 100%; }
+
+    .navbar-nav-ul-1
+    {
+      margin-right: 10%;
+      width: 50%;
+    }
+
+    .navbar-nav-ul-2
+    { width: auto; }
+
+    .navbar-toggler
+    {
+      background: transparent;
+      color: rgb(230, 230,  230);
+      font-weight: bolder;
+      font-size: 26px;
+      border: 1px solid rgb(230, 230,  230);
+      border-radius: 50% !important;
+      height: 45px;
+      width: 45px;
+      transition: 0.3s;
+    }
+
+    .navbar-toggler:hover
+    { 
+      background: rgb(230, 230,  230);
+      color: #232629 !important;
+    }
+
+    .nav-link
+    {
+      font-size: 14px; 
+      min-width: auto;
+      color: darkgrey;
+      border-bottom: 2px solid transparent;
+      text-shadow: 1px 1px 0px #111;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover
+    {
+      border-bottom-color: rgb(230, 230,  230);
+      color: rgb(230, 230,  230);
+    }
+
+    .navbar-collapse .nav-link
+    { 
+      margin-bottom: 10px !important; 
+      text-align: center;
+      border-radius: 50px;
+      border: none;
+    }
+
+    .navbar-collapse .nav-link:hover
+    { 
+      border: none;
+      background: rgb(40, 40, 40);
+    }
+
+    .navbar-expand-sm .nav-link
+    { margin: 0 15px; }
+
+    .signup-link
+    { 
+      width: 100% !important; 
+      border: 1px solid rgb(230, 230,  230) !important; 
+    }
+
+    .signup-link:hover
+    { 
+      background: rgb(230, 230,  230) !important;
+      color: #343a40 !important;
+      box-shadow: 0 0 15px black;
+    }
+
+    .get-started-button
+    {
+      min-width: 150px;
+      background: rgb(230, 230,  230);
+      color: #343a40 !important;
+      box-shadow: 0 0 15px black;
+    }
+
+
+        /* dashboard navbar section - START */
+
+        .nav-avatar
+        {
+          height: 40px !important;
+          width: 40px !important;
+          display: flex;
+          justify-content: center;
+          font-size: 160%;
+          border: 1px solid rgb(250, 250, 250);
+          border-radius: 50%;
+          /* background-image: url('../images/photo-placeholder.png') !important; */
+          background-size: cover !important;
+          background-repeat: no-repeat;
+        }
+
+        .nav-avatar:hover
+        { transform: scale(1.09); }
+
+        .popover
+        { 
+          background: transparent;
+          border: none;
+        }
+
+        .popover-body
+        {
+          color: darkgrey;
+          border-radius: 30px;
+          padding-right: 20px;
+          padding-left: 20px;
+          background: #111;
+          border: 1px solid rgb(230, 230, 230);
+          cursor: pointer;
+          transition: color 0.3s, opacity 0.3s, padding 0.3s;
+        }
+
+        .popover .arrow::after
+        { border-bottom-color: rgb(230, 230, 230); }
+
+        .popover-body:hover
+        { color: rgb(240, 240, 240) }
+
+        /* dashboard navbar section - END */
+
+    /* navbar section - END */
+
+
+
+    /* footer - START */
+
+    footer > div
+    
+    {
+      background: rgb(20, 20, 20);
+      color: rgb(117, 117, 117);
+      /* text-align: center; */
+    }
+
+    footer div:nth-child(2)
+    {
+      background: rgb(5, 5, 5);
+      color: rgb(70, 70, 70);
+    }
+
+    footer div:nth-child(2) section
+    {
+      padding: 8px 0;
+      font-size: 85%;
+      align-self: center;
+    }
+
+    footer h4
+    { color: #aaa; }
+
+    footer ul
+    {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+
+    footer li
+    { margin-bottom: 10px; }
+
+    footer a
+    { color: inherit; }
+
+    footer a:hover
+    { color: rgb(230, 230, 230); }
+
+    .soc-icon
+    {
+      display: inline-block;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      color: inherit;
+      font-size: 140%;
+      border: 1px solid rgb(54, 54, 54);
+      margin-right: 7px;
+      padding-top: 1px;
+      text-decoration: none !important;
+    }
+
+    .soc-icon:hover
+    {
+      color: rgb(230, 230, 230);
+      border-color: rgb(230, 230, 230);
+    }
+
+    /* footer - END */

@@ -1,0 +1,29 @@
+
+    .cur-page-top-bg-image
+    {
+      height: 280px;
+      background-image: url('../images/wallpaper-to-set.jpg');
+    }
+
+    .text-section-desc-img
+    {
+      width: 300px;
+    }
+
+    .about-photos-container
+    {
+      background: #111;
+      color: rgb(230, 230, 230);
+      width: 100%;
+    }
+
+    .about-photos
+    {
+      height: 180px;
+      width: 180px;
+      border-radius: 50%;
+      border: 4px solid rgb(230, 230, 230);
+      background-image: url('../images/photo-placeholder.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
