@@ -1,8 +1,17 @@
 
-    @media screen and (min-width: 651px)  
+    @media screen and (max-width: 579px)  
     {
+      .footer-sections
+      { justify-content: start !important; }
+      
       .card
-      { width: 30px !important; }
+      { padding: 0; }
+
+      .dash-list-item
+      { padding-right: 0; }
+
+      .dash-desc-box-wrapper
+      { padding: 7.5px; }
     }
 
     @media screen and (max-width: 768px)  
@@ -14,17 +23,11 @@
         right: 0;
       }
 
-      .card
-      { padding: 0; }
-
       .nav-for-PCs
       { display: none; }
 
       .nav-for-mobiles
       { display: block; }
-
-      .footer-sections
-      { justify-content: start !important; }
 
       main.about .order-2
       { order: 0 !important; }
@@ -36,8 +39,14 @@
         margin-bottom: 15px;
       }
 
-      .dash-list-item
+      .dash-col-2 .order-1
+      { padding-left: 0; }
+
+      .dash-col-2 .order-2
       { padding-right: 0; }
+
+      .dash-col-2 .order-3
+      { padding-left: 0; }
     }
 
     @media screen and (min-width: 769px)  

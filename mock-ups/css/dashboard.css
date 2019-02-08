@@ -56,8 +56,13 @@
       background: #686868;
     }
 
+    .dash-desc-box-wrapper
+    {
+      padding: 7.5px;
+    }
+
     .dash-desc-box
     {
-      height: 200px;
+      height: 170px;
       background: rgb(219, 219, 219);
     }
