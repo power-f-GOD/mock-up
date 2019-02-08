@@ -47,10 +47,7 @@
 
       .nav-for-mobiles
       { display: none; }
-    }
-    
-    @media screen and (max-width: 1021px)  
-    {
+      
       .container-fluid
       {
         padding-right: 25px;
